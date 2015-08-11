@@ -1,0 +1,41 @@
+header {
+    height:70px;
+    background-color:orange;
+}
+main {
+    height:500px;
+    background-color:pink;
+}
+footer {
+    height:80px;
+    background-color:green;
+}
+/*________________________________________________MOBILE___________*/
+ @media only screen and (max-width: 480px) {
+    body {
+        background-color:orange;
+    }
+    ul {
+        background-color:green;
+        text-align:center;
+    }
+    ul >li {
+        display: block;
+        list-style-type:none;
+        font-size:4.5em;
+        float:none;
+        margin-top:50px;
+    }
+    .name {
+        display:block;
+    }
+    header {
+        display:none;
+    }
+    section {
+        display:none;
+    }
+    footer {
+        display:none;
+    }
+}
